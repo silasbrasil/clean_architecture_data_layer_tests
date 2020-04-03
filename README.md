@@ -6,7 +6,7 @@ Este projeto é um tutorial sobre testes na Data Layer da Clean Architecture. Ne
 
 ## Um pouco de Clean Architecture
 
-Na camada de dados, Data Layer, temos os diretórios **datasources**, **repositories** e **models**, como mostrado na Figura 1. 
+Na camada de dados, Data Layer, temos os diretórios **datasources**, **repositories** e **models**, como mostrado abaixo. 
 
 ![Figura 1: Estrutura da Data Layer](images/data_layer.png)
 
@@ -20,7 +20,7 @@ No models é onde está a representação das classes de dados. Exemplo, usuári
 
 ## Repositories
 
-Este diretório é cérebro do Data Layer, é aqui deve ser feito as regras responsáveis para acessar os dados. Lembre-se sempre, regras de acesso aos dados e não regras de negócio. É o repositories que fornece os dados para as outras camadas. É por meio de repositories que a Domain Layer tem acesso aos dados. Na Domain Layer também há um diretório chamado repositories, mas lá são apenas as interfaces, contratos, ou seja, o repositories da Domain Layer definem os métodos que serão implementados na camada no repositories do Data Layer, como mostrado na Figura 2.
+Este diretório é cérebro do Data Layer, é aqui deve ser feito as regras responsáveis para acessar os dados. Lembre-se sempre, regras de acesso aos dados e não regras de negócio. É o repositories que fornece os dados para as outras camadas. É por meio de repositories que a Domain Layer tem acesso aos dados. Na Domain Layer também há um diretório chamado repositories, mas lá são apenas as interfaces, contratos, ou seja, o repositories da Domain Layer definem os métodos que serão implementados na camada no repositories do Data Layer, como mostrado abaixo.
 
 
 ![Figura 2: Repositories de Data e Domain Layers](images/data_and_domain_layer.png)
@@ -203,7 +203,7 @@ void main() {
 }
 ```
 
-#### Primeiro teste
+#### Teste em si
 Logo após o setUp do nosso ambiente, vamos implementar nosso primeiro teste.
 
 ```dart
