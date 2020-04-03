@@ -257,11 +257,11 @@ Por fim, após o ```expectLater``` temos a verificação do comportamento do mé
 O método ```verify```` assegura que houve uma chamada no métodos passado como parâmetro.
 
 ##### verifyNoMoreInteractions
-O método ```verifyNoMoreInteractions``` verifica se houve mais de uma interação na classe mockada.
+O método ```verifyNoMoreInteractions``` verifica se não houve mais de uma interação na classe mockada.
 
 ## Referências
 
-- [TDD](https://resocoder.com/flutter-clean-architecture-tdd/)
+- [Clean Architecture](https://resocoder.com/flutter-clean-architecture-tdd/)
 - [Mockito](https://pub.dev/documentation/mockito/latest/mockito/mockito-library.html)
 - [Writing test](https://pub.dev/packages/test)
 - [emitInOrder](https://pub.dev/documentation/test_api/latest/test_api/emitsInOrder.html)
